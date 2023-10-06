@@ -1,0 +1,131 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.menu {
+    display: flex;
+    align-items: right;
+}
+.logo img {
+    width: 250px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+    transition: color 0.3s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu a:hover {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+.donate-button{
+    margin: auto;
+}
+.donate-button a {
+    display:block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.donate-button a:hover {
+    background-color: #ff7f50;
+}
+.Steps{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Steps-item {
+    width: 33.33%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.Steps-item-box {
+    background-color: beige;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 25px;
+}
+.Steps-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.Steps-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.Steps-controls button {
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.Steps-item h4 {
+    margin: 10px 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Steps-item p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 20px;
+}
+.Steps-item h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video-container iframe {
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+}
+.header-container {
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?cs=srgb&dl=pexels-pixabay-235985.jpg&fm=jpg"); /* Set the background image */
+    color: darkorange; /* Text color for the header */
+    padding: 20px;
+    font-size: 350%;
+    margin-bottom: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 5px 5px 5px white;
+}
+.img{
+        display: inline-block;
+        margin: 20px;
+}
